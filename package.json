@@ -1,0 +1,14 @@
+{
+  "name": "win10-emu",
+  "version": "1.0.0",
+  "description": "Windows 10 Emulator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.2.0"
+  }
+}

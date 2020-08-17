@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>Windows 10</title>
+
+</head>
+<body>
+<div id="desktop">
+
+    <div id="file" draggable="true" title="folder">
+        <p><img src="icons/folder.png"><br>Folder</p>
+
+    </div>
+
+    <!-- always on bottom (START) -->
+    <div id="start" hidden="true">
+        <div id="metro"></div>
+        <div id="buttons">
+            <button onclick="shutdown()">Shutdown</button>
+        </div>
+    </div>
+</div>
+
+<nav id="nav">
+    <img src="icons/windows1.png" id="icon" onclick="toggleStart()">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+<input id="search" placeholder="Ask me anything">
+</nav>
+<script src="js/start.js"></script>
+<script src="js/drag.js"></script>
+</body>
+</html>

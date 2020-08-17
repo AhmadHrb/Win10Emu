@@ -1,0 +1,52 @@
+#desktop {
+    width: 100%;
+    height: 95%;
+    position: fixed;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nav {
+    width: 99%;
+    height: 5%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    opacity: 95%;
+}
+#search {
+    width: 20%;
+    height: 100%;
+    border: 0;
+    background-color: darkslategrey;
+    color: white;
+    outline: none;
+
+}
+#icon {
+    position: fixed;
+    bottom: 0;
+    transition-duration: 1.5s;
+    height: 5%;
+}
+#icon:hover {
+    background-color: lightgrey;
+}
+#start {
+    position: fixed;
+    bottom: 0;
+    background-color: grey;
+    width: 50%;
+    height: 80%;
+}
+#buttons {
+    position: fixed;
+    left: 0%;
+}
+#file {
+    position: fixed;
+}
+#file:active {
+    background-color: blue;
+}

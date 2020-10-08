@@ -11,7 +11,7 @@ A **In-Dev** Windows 10 Simulator - Powered by Web Technologies.
 <h3>Plans:</h3>
 <p>We have plans to recreate Windows using Web Technologies. it will <b>NOT</b> Support Windows Applications, but we'll work on <b>Rebuilding</b> Many apps in web technologies. This project is not a priority, it's just a fun project and a challange. <u>Would Web Technologies be able to build Windows?</u></p>
 <hr>
-&copy; 2020 - Ahmad.
+&copy; 2020 - Ahmad.<br>
 <b>Both the Project and the Owner of the project are not affiliated/sponsored/partnered with Microsoft or Windows. Windows is by Microsoft. and we dont own any rights.</b>
 <br>
 <a href="https://github.com/PocketInc">Pocket Team</a>

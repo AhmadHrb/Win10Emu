@@ -57,9 +57,21 @@ html, body {
     position: fixed;
     left: 0%;
 }
+
 #file {
     position: fixed;
 }
+
 #file:active {
     background-color: blue;
+}
+
+#searchMenu {
+    position: fixed;
+    bottom: 0;
+    left: 2.5%;
+    background-color: grey;
+    width: 21.5%;
+    height: 75%;
+    transition-duration: 250ms;
 }

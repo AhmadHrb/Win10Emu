@@ -21,11 +21,10 @@
             <button onclick="shutdown()">Shutdown</button>
         </div>
     </div>
-</div>
+    <div id="searchMenu" style="width:0;height:0">
 
-<script src="js/start.js"></script>
-<script src="js/drag.js"></script>
-</body>
+    </div>
+</div>
 
 <nav id="nav">
     <img id="icon" onclick="toggleStart()" src="icons/windows.svg">
@@ -34,6 +33,11 @@
     &nbsp;
     &nbsp;
     &nbsp;
-    <input id="search" placeholder="Ask me anything">
+    <input id="search" onfocusin="toggleSearch()" onfocusout="toggleSearch()" placeholder="Ask me anything">
 </nav>
+<script src="js/start.js"></script>
+<script src="js/search.js"></script>
+<script src="js/drag.js"></script>
+</body>
+
 </html>

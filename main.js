@@ -11,10 +11,11 @@ function createWindow () {
     height: 600,
     title: "Starting Windowsa 10..",
     webPreferences: {
-      //allow node integration
-      //allows node to work in HTML and JS files.
-      nodeIntegration: true,
-        webviewTag: true
+        //allow node integration
+        //allows node to work in HTML and JS files.
+        nodeIntegration: true,
+        webviewTag: true,
+        enableRemoteModule: true
 
     }
   })

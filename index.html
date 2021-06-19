@@ -13,14 +13,15 @@
         <p><img src="icons/folder.png"><br>Folder</p>
 
     </div>
-    <div class="window" draggable="true" title="Window">
+    <div class="window" draggable="true" id="window" title="Window">
         <div class="window-top">
             <table style="width: 100%">
                 <tr style="width: 100%">
                     <th></th>
                     <th>My Window</th>
                     <th style="text-align: end">
-                        <button style="width: 25px;height: 25px; padding: 0.35% 1%; background-color: red;border:1px solid black;border-radius:3px;outline: 0">
+                        <button class="x"
+                                onclick="this.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.remove()">
                             X
                         </button>
                     </th>
@@ -51,11 +52,13 @@
     &nbsp;
     <input id="search" onfocusin="toggleSearch()" onfocusout="toggleSearch()" placeholder="Ask me anything">
 
-    <img class="icon" src="icons/folder.png" style="width: 25px;height: 25px; padding: 0.35% 1%">
+    <img class="icon" onclick="createWindow('Folder','File Contents?')" src="icons/folder.png"
+         style="width: 25px;height: 25px; padding: 0.35% 1%">
 </nav>
 <script src="js/start.js"></script>
 <script src="js/search.js"></script>
 <script src="js/drag.js"></script>
+<script src="js/window.js"></script>
 </body>
 
 </html>

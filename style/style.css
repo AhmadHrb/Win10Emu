@@ -95,3 +95,21 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.x {
+    width: 25px;
+    height: 25px;
+    padding: 0.35% 1%;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.x:hover {
+    background-color: darkred;
+}
+
+.x:active {
+    background-color: orangered;
+}

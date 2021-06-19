@@ -31,24 +31,27 @@ html, body {
     width: 20%;
     height: 100%;
     border: 0;
-    background-color: darkslategrey;
+    background-color: black;
     color: white;
     outline: none;
 
 }
-#icon {
+
+.icon {
     position: fixed;
     bottom: 0;
-    transition-duration: 1.5s;
+    transition-duration: 1s;
     height: 5%;
 }
-#icon:hover {
+
+.icon:hover {
     background-color: #ccc;
 }
+
 #start {
     position: fixed;
     bottom: 0;
-    background-color: grey;
+    background-color: black;
     width: 50%;
     height: 80%;
     transition-duration: 250ms;
@@ -70,8 +73,25 @@ html, body {
     position: fixed;
     bottom: 0;
     left: 2.5%;
-    background-color: grey;
+    background-color: black;
     width: 21.5%;
     height: 75%;
     transition-duration: 250ms;
+}
+
+.window {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    resize: both;
+    overflow: auto;
+    transition-duration: 100ms;
+}
+
+.window-top {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
